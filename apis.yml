@@ -1,8 +1,14 @@
 aid: general-matter
 name: General Matter
-description: 'General Matter is a company surfaced as a portfolio company of founders-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: energy. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'General Matter is a domestic nuclear-fuel company founded in 2024 and based in California,
+  building United States uranium enrichment capacity to produce low-enriched uranium (LEU) and high-assay
+  low-enriched uranium (HALEU) for advanced commercial and government nuclear reactors. Co-founded by
+  Scott Nolan and Lee Robinson and backed by Founders Fund, the company was awarded a $900M Department
+  of Energy IDIQ contract and plans a $1.5B commercial enrichment facility at the former Paducah Gaseous
+  Diffusion Plant in Kentucky, plus a lease on the Hanford Fuels and Materials Examination Facility in
+  Washington. Its mission is to reduce American reliance on foreign nuclear fuel and strengthen energy
+  independence. General Matter is an industrial energy manufacturer with no public developer API; this
+  profile captures its identity, website properties, and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/general-matter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - founders-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://images.prismic.io/generalmatter/Z_w9yOvxEdbNO-v5_GM-metaimage.png?auto=format,compress&rect=0,0,1200,630&w=1200&h=630
 tags:
 - Company
 - Energy
+- Nuclear
+- Nuclear Fuel
+- Uranium Enrichment
+- HALEU
+- Cleantech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.generalmatter.com
+- type: Blog
+  url: https://www.generalmatter.com/news
+- type: PrivacyPolicy
+  url: https://www.generalmatter.com/privacy-terms
+- type: TermsOfService
+  url: https://www.generalmatter.com/privacy-terms
+- type: DomainSecurity
+  url: security/general-matter-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
